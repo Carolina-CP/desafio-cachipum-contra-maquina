@@ -1,0 +1,49 @@
+html{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--green-color);
+    font-family: "Open Sans";
+    color:var(--white-color); 
+    text-align: center;
+    padding: 1rem;
+}
+
+
+h1{
+   text-transform: uppercase;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: rgb(29, 55, 63);
+}
+
+.icon{
+    font-size: 5rem;
+    margin: 2rem 3rem;
+}
+
+
+
+button{
+  padding: .375rem .75rem;
+  border: 1px solid var(--green-color);
+  border-radius: .25rem;
+  color: var(--green-color);
+  margin: 1.3rem;
+
+}
+
+button p{
+    font-size: 1rem;
+}
+
+.partida{
+margin: 0.8rem;
+margin-right: 3rem;
+
+}

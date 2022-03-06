@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />    
+
+    <link rel="stylesheet" href="assets/css/colors.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Desafío 1 - Cachipúm contra la Máquina</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Juega al cachipún y gánale al computador</h1>
+    </header>
+
+    <div class="partidas">
+        <label for="partidas">Partidas: </label>
+        <input type="text" id="partidas" > 
+        
+        <button type="button"  onclick="cantidadPartidas()"> 
+           ¡¡A Jugar!! 
+        </button> 
+        
+        <p id="numeroPartidas"></p> 
+    </div>
+
+
+        <h3>Elige piedra, papel o tijera</h3>
+
+
+  <button class="btn btn-light" onclick="elegirPiedra()"><i class="icon fa-solid fa-hand-back-fist"></i><p>Piedra</p></button>
+  <button class="btn btn-light" onclick="elegirPapel()"><i class="icon fa-solid fa-hand"> </i><p>Papel</p> </button>
+  <button class="btn btn-light" onclick="elegirTijera()"><i class="icon fa-solid fa-hand-scissors"> </i> <p>Tijera</p></button>
+
+  <h3>La maquina ha elegido: <span id="jugadaMaquina"> </span></h3>
+
+
+
+  
+
+    <script src="assets/js/operaciones.js"></script>
+</body>
+
+</html>
